@@ -1,37 +1,35 @@
-body {
+.header {
+  margin: 0 auto;
   height: 799px;
-  width: 100%;
-  border-radius: 0px;
-  margin: 0;
-}
-
-main {
-  height: 799px;
-  width: 100%;
-  border-radius: 0px;
   background: #f2f3f7;
 
-  background-image: url(image/background.png);
-  background-size: auto;
+  background-image: url('images/background.png');
+  object-fit: contain;
   background-repeat: no-repeat;
   background-position: top;
-
+  width: 1280px;
   position: relative;
 }
 
-main > h2 {
+header {
+  background-color: #F2F3F7;;
+}
+
+.header-text {
   position: absolute;
   left: 14%;
   top: 26.78%;
+  display: flex;
+  flex-direction: column;
+}
 
+.header-text > h2 {
   height: 261px;
   width: 341px;
-  border-radius: 0px;
 
-  letter-spacing: 0em;
   text-align: left;
 
-  font-family: "Helvetica";
+  font-family: 'Helvetica';
   font-style: normal;
   font-weight: 400;
   font-size: 76px;
@@ -42,18 +40,14 @@ main > h2 {
   margin: 0;
 }
 
-main > h3 {
-  position: absolute;
-  left: 15.5%;
-  top: 63.33%;
-
+.header-text > h3 {
+  display: flex;
+  justify-content: center;
+  padding-right: 70px;
   height: 48px;
-  width: 128px;
-  border-radius: 0px;
+  width: 100%;
 
-  letter-spacing: 0em;
-
-  font-family: "Noto Sans CJK JP";
+  font-family: 'Noto Sans CJK JP';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -74,7 +68,6 @@ main > h3 {
 .nav-list {
   height: 77px;
   width: 720.5px;
-  border-radius: 0%;
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
@@ -94,13 +87,9 @@ main > h3 {
   color: #777777;
 }
 
-.nav-list > p {
-}
-
 .square {
   height: 77px;
   width: 974.5px;
-  border-radius: 0px;
   box-shadow: 5px 5px 0px 0 rgba(52, 55, 58, 0.2);
   position: relative;
 
@@ -118,15 +107,14 @@ main > h3 {
   background: #ffffff;
 }
 
-main > .scroll > p {
+.scroll > p {
   height: 15px;
-  width: 47px;
-  border-radius: 0px;
+  width: 50px;
 
   letter-spacing: 0em;
   text-align: left;
 
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
