@@ -3,7 +3,7 @@
   height: 799px;
   background: #f2f3f7;
 
-  background-image: url('images/background.png');
+  background-image: url("images/background.png");
   object-fit: contain;
   background-repeat: no-repeat;
   background-position: top;
@@ -12,7 +12,7 @@
 }
 
 header {
-  background-color: #F2F3F7;;
+  background-color: #f2f3f7;
 }
 
 .header-text {
@@ -29,7 +29,7 @@ header {
 
   text-align: left;
 
-  font-family: 'Helvetica';
+  font-family: "Helvetica";
   font-style: normal;
   font-weight: 400;
   font-size: 76px;
@@ -47,7 +47,7 @@ header {
   height: 48px;
   width: 100%;
 
-  font-family: 'Noto Sans CJK JP';
+  font-family: "Noto Sans CJK JP";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -114,7 +114,7 @@ header {
   letter-spacing: 0em;
   text-align: left;
 
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -133,4 +133,208 @@ header {
 .line {
   position: absolute;
   left: 47%;
+}
+
+.greeting {
+  font-family: Noto Sans CJK JP;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0 auto;
+  line-height: 35px;
+  position: absolute;
+  left: 7.94%;
+  top: 36.9%;
+  height: 187px;
+  width: 831px;
+}
+
+main {
+  position: relative;
+  height: 2652px;
+  width: 1280px;
+}
+
+.about {
+  font-family: Noto Sans CJK JP;
+  font-size: 43px;
+  font-weight: 500;
+  font-family: Noto Sans CJK JP;
+  line-height: 62.26px;
+  position: absolute;
+  left: 13.43%;
+  top: 3.85%;
+  margin: 0;
+  z-index: 1;
+}
+
+.background-about {
+  height: 282.5px;
+  width: 953.95px;
+  background-color: #f2f3f7;
+  position: absolute;
+  left: 12.37%;
+  top: 4.94%;
+  margin: 0;
+  position: relative;
+}
+
+.mark-about {
+  position: absolute;
+  left: 10.86%;
+  top: 4.19%;
+}
+
+.link-about {
+  height: 35.8px;
+  width: 157.12px;
+  line-height: 35.8px;
+  background-color: #d4004e;
+  color: #ffffff;
+  position: absolute;
+  left: 46.61%;
+  top: 15.23%;
+  text-align: center;
+  font-size: 13px;
+}
+
+span {
+  color: #ffffff;
+  float: right;
+}
+
+.service {
+  font-size: 43px;
+  font-weight: 500;
+  font-family: Noto Sans CJK JP;
+  line-height: 62.26px;
+  position: absolute;
+  left: 13.43%;
+  top: 21%;
+}
+
+.table-service {
+  position: absolute;
+  left: 10.98%;
+  top: 26.07%;
+  text-align: center;
+}
+
+td {
+  height: 87.66px;
+  width: 489px;
+}
+
+.link-science {
+  height: 35.8px;
+  width: 157.12px;
+  line-height: 35.8px;
+  font-weight: 700;
+  background-color: #d4004e;
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.title-service {
+  font-family: Noto Sans CJK JP;
+  font-size: 20px;
+  line-height: 29.6px;
+  font-weight: 700;
+  color: #d4004e;
+  padding-left: 95.5px;
+}
+
+.txt-service {
+  font-family: Noto Sans CJK JP;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 29.6px;
+  padding-left: 95.5px;
+}
+
+.mark-service {
+  position: absolute;
+  left: 10.86%;
+  top: 21.36%;
+}
+
+.link-education {
+  height: 35.8px;
+  width: 157.12px;
+  line-height: 35.8px;
+  background-color: #d4004e;
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.link-bottom {
+  height: 35.8px;
+  width: 157.12px;
+  line-height: 35.8px;
+  background-color: #d4004e;
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.link-iot {
+  height: 35.8px;
+  width: 157.12px;
+  line-height: 35.8px;
+  background-color: #d4004e;
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.news {
+  font-family: Noto Sans CJK JP;
+  font-size: 43px;
+  font-weight: 500;
+  font-family: Noto Sans CJK JP;
+  line-height: 62.26px;
+  position: absolute;
+  left: 13.43%;
+  top: 77.53%;
+}
+
+.table-news {
+  position: absolute;
+  left: 12.73%;
+  top: 78.77%;
+}
+
+.mark-news {
+  position: absolute;
+  left: 10.86%;
+  top: 77.85%;
+}
+
+.link-news {
+  height: 35.8px;
+  width: 157.12px;
+  line-height: 35.8px;
+  background-color: #d4004e;
+  color: #ffffff;
+  position: absolute;
+  left: 42.95%;
+  top: 94.93%;
+  text-align: center;
+}
+
+.link-news > span {
+  color: #ffffff;
+  float: right;
+}
+
+footer {
+  height: 261px;
 }
