@@ -15,6 +15,10 @@ header {
   background-color: #f2f3f7;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header-text {
   position: absolute;
   left: 14%;
@@ -209,7 +213,7 @@ span {
   line-height: 62.26px;
   position: absolute;
   left: 13.43%;
-  top: 21%;
+  top: 19%;
 }
 
 .table-service {
@@ -303,7 +307,7 @@ td {
   line-height: 62.26px;
   position: absolute;
   left: 13.43%;
-  top: 77.53%;
+  top: 75.35%;
 }
 
 .table-news {
@@ -326,7 +330,7 @@ td {
   color: #ffffff;
   position: absolute;
   left: 42.95%;
-  top: 94.93%;
+  top: 98%;
   text-align: center;
 }
 
@@ -335,6 +339,113 @@ td {
   float: right;
 }
 
+.item-news > a {
+  position: relative;
+  display: flex;
+  padding-right: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+.list-news {
+  margin: 0;
+  position: absolute;
+  left: 15.08%;
+  top: 80.17%;
+}
+
+.date-news {
+  font-size: 13px;
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+}
+
+.date-news > p {
+  text-align: center;
+  margin-left: 20px;
+  height: 25px;
+  width: 158px;
+  font-family: Hiragino Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.education-news {
+  border: 1px solid #e5a31c;
+  color: #e5a31c;
+}
+
+.lab-news {
+  border: 1px solid #d4004e;
+  color: #d4004e;
+}
+
+.science-news {
+  border: 1px solid #5fa153;
+  color: #5fa153;
+}
+
+.bottom-news {
+  border: 1px solid #50bbf4;
+  color: #50bbf4;
+}
+
+time {
+  font-family: Noto Sans CJK JP;
+  font-size: 13px;
+  font-weight: 500;
+  padding-left: 23.5px;
+}
+
+.item-news > a > p {
+  width: 100%;
+  font-family: Noto Sans CJK JP;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.item-news > a > p::after {
+  content: "＞";
+  padding-left: 41.88px;
+}
+
+.item-news > a > p::before {
+  content: "";
+  width: 1.5px;
+  height: 19.88px;
+}
+
+.item-news {
+  padding-bottom: 73px;
+}
+
+/*フッダー*/
+
 footer {
   height: 261px;
+  background-color: #333;
+  color: #ffffff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+footer > a {
+  color: #ffffff;
+  position: absolute;
+  bottom: 38.36%;
+}
+
+footer > p {
+  position: absolute;
+  bottom: 10.3%;
+}
+
+footer > nav > ul {
+  display: flex;
+  justify-content: center;
 }
