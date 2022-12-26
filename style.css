@@ -88,7 +88,7 @@ a {
 
 .nav-items > p {
   margin: 0;
-  font-family: Noto Sans CJK JP;
+  font-family: "Noto Sans CJK JP";
   font-size: 10px;
   text-align: center;
   color: #777777;
@@ -143,7 +143,7 @@ a {
 }
 
 .greeting {
-  font-family: Noto Sans CJK JP;
+  font-family: "Noto Sans CJK JP";
   font-size: 17px;
   font-weight: 500;
   margin: 0 auto;
@@ -162,10 +162,9 @@ main {
 }
 
 .about {
-  font-family: Noto Sans CJK JP;
+  font-family: "Noto Sans CJK JP";
   font-size: 43px;
   font-weight: 500;
-  font-family: Noto Sans CJK JP;
   line-height: 62.26px;
   position: absolute;
   left: 13.43%;
@@ -212,7 +211,7 @@ span {
 .service {
   font-size: 43px;
   font-weight: 500;
-  font-family: Noto Sans CJK JP;
+  font-family: "Noto Sans CJK JP";
   line-height: 62.26px;
   position: absolute;
   left: 13.43%;
@@ -228,7 +227,7 @@ span {
 
 td {
   height: 87.66px;
-  width: 489px;
+  width: 495px;
 }
 
 .bottom-service {
@@ -264,7 +263,7 @@ td {
 }
 
 .txt-service-r {
-  font-family: Noto Sans CJK JP;
+  font-family: "Noto Sans CJK JP";
   font-size: 13px;
   font-weight: 700;
   line-height: 29.6px;
@@ -273,7 +272,7 @@ td {
 }
 
 .txt-service-l {
-  font-family: Noto Sans CJK JP;
+  font-family: "Noto Sans CJK JP";
   font-size: 13px;
   font-weight: 700;
   line-height: 29.6px;
@@ -296,10 +295,9 @@ td {
 }
 
 .news {
-  font-family: Noto Sans CJK JP;
+  font-family: "Noto Sans CJK JP";
   font-size: 43px;
   font-weight: 500;
-  font-family: Noto Sans CJK JP;
   line-height: 62.26px;
   position: absolute;
   left: 13.43%;
@@ -395,7 +393,7 @@ ul {
 }
 
 time {
-  font-family: Noto Sans CJK JP;
+  font-family: "Noto Sans CJK JP";
   font-size: 13px;
   font-weight: 500;
   padding-left: 23.5px;
@@ -403,7 +401,7 @@ time {
 
 .item-news > a > p {
   width: 100%;
-  font-family: Noto Sans CJK JP;
+  font-family: "Noto Sans CJK JP";
   font-weight: 500;
   font-size: 13px;
   line-height: 60px;
