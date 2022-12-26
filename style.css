@@ -74,13 +74,16 @@ a {
   width: 720.5px;
   display: flex;
   justify-content: space-around;
-  margin-top: 10px;
 }
 
 .nav-items {
   list-style: none;
   font-size: 14px;
   margin-top: 6px;
+}
+
+.nav-contact {
+  margin-right: 40px;
 }
 
 .nav-items > p {
@@ -129,7 +132,7 @@ a {
 
 .scroll {
   position: absolute;
-  left: 50%;
+  left: 46%;
   top: 93.74%;
   margin: 8.69px;
 }
@@ -228,7 +231,7 @@ td {
   width: 489px;
 }
 
-.link-science {
+.bottom-service {
   height: 35.8px;
   width: 157.12px;
   line-height: 35.8px;
@@ -240,21 +243,42 @@ td {
   display: inline-block;
 }
 
-.title-service {
-  font-family: Noto Sans CJK JP;
+.title-service-r {
+  font-family: "Noto Sans CJK JP";
   font-size: 20px;
   line-height: 29.6px;
   font-weight: 700;
   color: #d4004e;
   padding-left: 95.5px;
+  text-align: left;
 }
 
-.txt-service {
+.title-service-l {
+  font-family: "Noto Sans CJK JP";
+  font-size: 20px;
+  line-height: 29.6px;
+  font-weight: 700;
+  color: #d4004e;
+  padding-left: 50px;
+  text-align: left;
+}
+
+.txt-service-r {
   font-family: Noto Sans CJK JP;
   font-size: 13px;
   font-weight: 700;
   line-height: 29.6px;
   padding-left: 95.5px;
+  text-align: left;
+}
+
+.txt-service-l {
+  font-family: Noto Sans CJK JP;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 29.6px;
+  padding-left: 50px;
+  text-align: left;
 }
 
 .mark-service {
@@ -263,40 +287,12 @@ td {
   top: 21.36%;
 }
 
-.link-education {
-  height: 35.8px;
-  width: 157.12px;
-  line-height: 35.8px;
-  background-color: #d4004e;
-  color: #ffffff;
-  text-align: center;
-  font-size: 13px;
-  display: inline-block;
-  font-weight: 700;
+.td-row {
+  border: 1px solid #707070;
 }
 
-.link-bottom {
-  height: 35.8px;
-  width: 157.12px;
-  line-height: 35.8px;
-  background-color: #d4004e;
-  color: #ffffff;
-  text-align: center;
-  font-size: 13px;
-  display: inline-block;
-  font-weight: 700;
-}
-
-.link-iot {
-  height: 35.8px;
-  width: 157.12px;
-  line-height: 35.8px;
-  background-color: #d4004e;
-  color: #ffffff;
-  text-align: center;
-  font-size: 13px;
-  display: inline-block;
-  font-weight: 700;
+.blank-space {
+  height: 75px;
 }
 
 .news {
@@ -308,6 +304,7 @@ td {
   position: absolute;
   left: 13.43%;
   top: 75.35%;
+  z-index: 1;
 }
 
 .table-news {
@@ -329,8 +326,8 @@ td {
   background-color: #d4004e;
   color: #ffffff;
   position: absolute;
-  left: 42.95%;
-  top: 98%;
+  left: 46.5%;
+  bottom: 3%;
   text-align: center;
 }
 
@@ -343,6 +340,9 @@ td {
   position: relative;
   display: flex;
   padding-right: 30px;
+  height: 86px;
+  width: 965px;
+  background-color: #f2f3f7;
 }
 
 ul {
@@ -352,8 +352,8 @@ ul {
 .list-news {
   margin: 0;
   position: absolute;
-  left: 15.08%;
-  top: 80.17%;
+  left: 12.37%;
+  top: 78.5%;
 }
 
 .date-news {
@@ -368,7 +368,7 @@ ul {
   margin-left: 20px;
   height: 25px;
   width: 158px;
-  font-family: Hiragino Sans;
+  font-family: "Hiragino Sans";
   font-size: 12px;
   font-weight: 600;
   line-height: 25px;
@@ -406,6 +406,12 @@ time {
   font-family: Noto Sans CJK JP;
   font-weight: 500;
   font-size: 13px;
+  line-height: 60px;
+}
+
+.item-news > a > div::after {
+  content: "┃";
+  padding-left: 18px;
 }
 
 .item-news > a > p::after {
@@ -413,14 +419,8 @@ time {
   padding-left: 41.88px;
 }
 
-.item-news > a > p::before {
-  content: "";
-  width: 1.5px;
-  height: 19.88px;
-}
-
 .item-news {
-  padding-bottom: 73px;
+  padding-bottom: 12px;
 }
 
 /*フッダー*/
@@ -448,4 +448,31 @@ footer > p {
 footer > nav > ul {
   display: flex;
   justify-content: center;
+}
+
+footer > nav {
+  position: absolute;
+  bottom: 67%;
+}
+
+.link-facebook {
+  height: 35.8px;
+  width: 157.12px;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 35.8px;
+  font-family: "Noto Sans CJK JP";
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.link-facebook > span {
+  color: #333;
+  float: right;
+}
+
+.blank-li::after {
+  content: "┃";
+  margin: 0 39.5px;
 }
