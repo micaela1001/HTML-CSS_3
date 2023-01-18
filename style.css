@@ -2,7 +2,6 @@
   margin: 0 auto;
   height: 799px;
   background: #f2f3f7;
-
   background-image: url("images/background.png");
   object-fit: contain;
   background-repeat: no-repeat;
@@ -50,7 +49,6 @@ a {
   padding-right: 70px;
   height: 48px;
   width: 100%;
-
   font-family: "Noto Sans CJK JP";
   font-style: normal;
   font-weight: 700;
@@ -167,8 +165,8 @@ main {
   font-weight: 500;
   line-height: 62.26px;
   position: absolute;
-  left: 13.43%;
-  top: 3.85%;
+  left: 19.3%;
+  top: 4%;
   margin: 0;
   z-index: 1;
 }
@@ -178,7 +176,7 @@ main {
   width: 953.95px;
   background-color: #f2f3f7;
   position: absolute;
-  left: 12.37%;
+  left: 18.5%;
   top: 4.94%;
   margin: 0;
   position: relative;
@@ -186,7 +184,7 @@ main {
 
 .mark-about {
   position: absolute;
-  left: 10.86%;
+  left: 16%;
   top: 4.19%;
 }
 
@@ -197,7 +195,7 @@ main {
   background-color: #d4004e;
   color: #ffffff;
   position: absolute;
-  left: 46.61%;
+  left: 47%;
   top: 15.23%;
   text-align: center;
   font-size: 13px;
@@ -206,6 +204,7 @@ main {
 span {
   color: #ffffff;
   float: right;
+  padding-right: 11.4px;
 }
 
 .service {
@@ -214,20 +213,115 @@ span {
   font-family: "Noto Sans CJK JP";
   line-height: 62.26px;
   position: absolute;
-  left: 13.43%;
+  left: 19.3%;
   top: 19%;
 }
 
-.table-service {
+.mark-service {
   position: absolute;
-  left: 10.98%;
-  top: 26.07%;
-  text-align: center;
+  left: 16%;
+  top: 20.19%;
 }
 
-td {
-  height: 87.66px;
-  width: 495px;
+.cols {
+  position: absolute;
+  left: 17%;
+  top: 26.07%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 75px 95.5px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "d1 d2"
+    "d3 d4"
+    "d5 d6"
+    "d7 d8";
+}
+
+.container > .science-images,
+.science-article,
+.education-images,
+.education-article,
+.unko-images,
+.unko-article,
+.iot-images,
+.iot-article {
+  height: 263px;
+  width: 489px;
+}
+
+.science-images {
+  grid-area: d1;
+}
+
+.science-article {
+  grid-area: d2;
+}
+
+.education-article {
+  grid-area: d3;
+}
+
+.education-images {
+  grid-area: d4;
+}
+
+.unko-images {
+  grid-area: d5;
+}
+
+.unko-article {
+  grid-area: d6;
+}
+
+.iot-article {
+  grid-area: d7;
+}
+
+.iot-images {
+  grid-area: d8;
+}
+
+.science-article > h3,
+.education-article > h3,
+.unko-article > h3,
+.iot-article > h3 {
+  font-family: "Noto Sans CJK JP";
+  font-size: 20px;
+  font-weight: 700;
+  color: #d4004e;
+  padding-bottom: 38px;
+}
+
+.science-article > p,
+.education-article > p,
+.unko-article > p,
+.iot-article > p {
+  font-family: "Noto Sans CJK JP";
+  font-size: 13px;
+  font-weight: 700;
+  padding-bottom: 63.6px;
+  width: 392px;
+  height: 38px;
+  line-height: 19.25px;
+}
+
+.education-article,
+.iot-article {
+  padding-left: 53.5px;
+}
+
+.science-images,
+.education-images,
+.unko-images,
+.iot-images {
+  border: 1px solid #707070;
+  display: grid;
+  place-items: center;
 }
 
 .bottom-service {
@@ -239,59 +333,8 @@ td {
   color: #ffffff;
   text-align: center;
   font-size: 13px;
-  display: inline-block;
-}
-
-.title-service-r {
-  font-family: "Noto Sans CJK JP";
-  font-size: 20px;
-  line-height: 29.6px;
-  font-weight: 700;
-  color: #d4004e;
-  padding-left: 95.5px;
-  text-align: left;
-}
-
-.title-service-l {
-  font-family: "Noto Sans CJK JP";
-  font-size: 20px;
-  line-height: 29.6px;
-  font-weight: 700;
-  color: #d4004e;
-  padding-left: 50px;
-  text-align: left;
-}
-
-.txt-service-r {
-  font-family: "Noto Sans CJK JP";
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 29.6px;
-  padding-left: 95.5px;
-  text-align: left;
-}
-
-.txt-service-l {
-  font-family: "Noto Sans CJK JP";
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 29.6px;
-  padding-left: 50px;
-  text-align: left;
-}
-
-.mark-service {
-  position: absolute;
-  left: 10.86%;
-  top: 21.36%;
-}
-
-.td-row {
-  border: 1px solid #707070;
-}
-
-.blank-space {
-  height: 75px;
+  display: block;
+  margin: 0 auto;
 }
 
 .news {
@@ -300,21 +343,15 @@ td {
   font-weight: 500;
   line-height: 62.26px;
   position: absolute;
-  left: 13.43%;
-  top: 75.35%;
+  left: 19.3%;
+  top: 76%;
   z-index: 1;
-}
-
-.table-news {
-  position: absolute;
-  left: 12.73%;
-  top: 78.77%;
 }
 
 .mark-news {
   position: absolute;
-  left: 10.86%;
-  top: 77.85%;
+  left: 16%;
+  top: 77.4%;
 }
 
 .link-news {
@@ -332,6 +369,7 @@ td {
 .link-news > span {
   color: #ffffff;
   float: right;
+  padding-right: 11.4px;
 }
 
 .item-news > a {
@@ -350,7 +388,7 @@ ul {
 .list-news {
   margin: 0;
   position: absolute;
-  left: 12.37%;
+  left: 17.5%;
   top: 78.5%;
 }
 
@@ -438,7 +476,7 @@ footer > a {
   bottom: 38.36%;
 }
 
-footer > p {
+small {
   position: absolute;
   bottom: 10.3%;
 }
@@ -468,9 +506,10 @@ footer > nav {
 .link-facebook > span {
   color: #333;
   float: right;
+  padding-right: 12.4px;
 }
 
 .blank-li::after {
   content: "┃";
-  margin: 0 39.5px;
+  padding: 0 39.5px;
 }
